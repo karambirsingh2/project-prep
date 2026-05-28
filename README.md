@@ -17,4 +17,20 @@ npm run dev
 - Backend: `http://localhost:5000`
 - Health check: `http://localhost:5000/api/health`
 
+## Frontend (CORA-style replica)
+
+The React frontend replicates the layout and styling of [CORA Physical Therapy](https://coraphysicaltherapy.com/) using **Tailwind CSS** and reusable components.
+
+### Component structure
+
+```
+frontend/src/
+├── components/
+│   ├── ui/          # Button, Container, Card, Input, Select, SectionHeading, TriangleAccent
+│   ├── layout/      # Header, Footer, AnnouncementBar, NavDropdown
+│   └── sections/    # Hero, PainGrid, LocationFinder, CareerSection, etc.
+├── data/            # navigation, pain areas, testimonials, news
+└── pages/           # HomePage
+```
+
 # project-prep
